@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>p6</title>
+	<link rel="stylesheet" type="text/css" href="css/style_grid.css">
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		header{
+			background: orange;
+			height: 80px;
+		}
+		h1{
+			font-size: 20px;
+		}
+		nav{
+			height: 50px;
+	
+		}
+		nav ul li{
+			list-style-type: none;
+			display: inline-block;
+			width: 26px;
+			height: 26px;
+		}
+		main div{
+			padding: 4px;
+		}
+		html,body{
+			width: 100%;
+			height:100%;
+		}
+		section{
+			height: 120px;
+			width: 100%;
+		}
+		.groc{
+			background: #efce00;
+		}
+		.morat{
+			background: #9512b2;
+		}
+		.cyan{
+			background: #00ffff;
+		}
+		.blau{
+			background: #12b2b2;
+		}
+
+	</style>
+</head>
+<body>
+<header>
+	<div class="push-5 col-2">
+	<h1>Grid System</h1>
+	<nav>
+		<ul>
+			<a href="#"><li class="groc"></li></a>
+			<a href="#"><li class="morat"></li></a>
+			<a href="#"><li class="blau"></li></a>
+			<a href="#"><li class="cyan"></li></a>
+		</ul>
+	</nav>
+	</div>
+</header>
+<main>
+	<!--fila1-->
+	<div class="col-2">
+		<section class="cyan"></section>
+	</div>
+	<div class="col-2">
+		<section class="morat"></section>
+	</div>
+	<div class="col-2">
+		<section class="blau"></section>
+	</div>
+	<div class="col-4">
+		<section class="groc"></section>
+	</div>
+	<div class="col-2">
+		<section class="morat"></section>
+	</div>
+	<!--fila2-->	
+	<div class="col-2">
+		<section class="morat"></section>
+	</div>
+	<div class="col-2">
+		<section class="blau"></section>
+	</div>
+	<div class="col-4">
+		<section class="morat"></section>
+	</div>
+	<div class="col-2">
+		<section class="cyan"></section>
+	</div>
+	<div class="col-2">
+		<section class="blau"></section>
+	</div>
+	<!--fila3-->
+	<div class="col-2">
+		<section class="morat"></section>
+	</div>
+	<div class="col-2">
+		<section class="cyan"></section>
+	</div>
+	<div class="col-2">
+		<section class="blau"></section>
+	</div>
+	<div class="col-2">
+		<section class="groc"></section>
+	</div>
+	<div class="col-4">
+		<section class="cyan"></section>
+	</div>
+
+</main>
+</body>
+</html>
